@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//isabel passamani 
+
 typedef struct{
     int x;
     int y;
@@ -50,7 +52,10 @@ int main(){
 
     if (circulosAeBSeIntersectam(circuloA, circuloB, distancia) || circuloAemB(circuloA, circuloB, distancia) 
         || circuloBemA(circuloA, circuloB, distancia)){
-        printf()
+        printf("Circulos se intersectam");
+    }
+    else{
+        printf("Circulos nao se intersectam");
     }
     
 }
